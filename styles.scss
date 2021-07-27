@@ -1,0 +1,37 @@
+.line-height100 {
+  position: relative;
+  height: 100% !important;
+}
+
+.paddingLR {
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+}
+
+#linegraph ul > li > svg{
+  display: none;
+}
+
+#bottom-container > ul > li span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.line-height100 #center-axis-container svg path {
+  stroke: #1CAF7F;
+  stroke-width: 4px;
+}
+
+.noData {
+  position: absolute;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}

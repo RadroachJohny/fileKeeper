@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #cecece;
+}
+
+.table {
+  width: 100%;
+    margin: 0 auto;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: #000000;
+    border-collapse: collapse;
+    &-wrapper {
+        width: 65%;
+        margin: 0 auto;
+        background-color: #f5f2f2;
+    }
+    th {
+        border: 1px solid #000000;
+    } td {
+        border: 1px solid #000000;
+        text-align: center;
+        & > img {
+            display: inline-block;
+            width: 100%;
+            max-width: 30px;
+            height: 50px;
+            object-fit: contain;
+        }
+    }
+
+
+}
